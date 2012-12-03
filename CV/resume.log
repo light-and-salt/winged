@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  3 DEC 2012 11:04
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  4 DEC 2012 00:07
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -204,13 +204,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--78
 [1
 
 {/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
 
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 140.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 144.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
  ) 
 Here is how much of TeX's memory you used:
  4180 strings out of 493633
@@ -231,7 +231,7 @@ cal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/loc
 al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
 /texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on resume.pdf (2 pages, 141449 bytes).
+Output written on resume.pdf (2 pages, 144678 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
