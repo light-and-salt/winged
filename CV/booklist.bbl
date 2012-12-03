@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{ml}
+Christopher~M. Bishop.
+\newblock {\em Pattern Recognition and Machine Learning}.
+\newblock Springer, 2006.
+
+\bibitem{psychology}
+Stuart~K. Card, Thomas~P. Moran, and Allen Newell.
+\newblock {\em The Psychology of Human-Computer Interaction}.
+\newblock Lawrence Erlbaum Associates Inc., 1983.
+
+\bibitem{methods}
+Jonathan Lazar, Jinjuan~H. Feng, and Harry Hochheiser.
+\newblock {\em Research Methods in Human-Computer Interaction}.
+\newblock John Wiley \& Sons Ltd, 2010.
+
+\bibitem{egalcar}
+Zening Qu and Jeffrey~A. Burke.
+\newblock Egal car: A peer-to-peer car racing game synchronized over named data
+  networking.
+\newblock Technical report, UCLA, October 2012.
+\newblock http://named-data.net/techreport/TR010-egalcar.pdf.
+
+\end{thebibliography}
