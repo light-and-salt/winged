@@ -1,0 +1,150 @@
+%______________________________________________________________________________________________________________________
+% @brief    LaTeX2e Resume for Kamil K Wojcicki
+\documentclass[margin,line]{resume}
+
+\usepackage{url}
+\usepackage{hyperref}
+%% Define a new 'leo' style for the package that will use a smaller font.
+\makeatletter
+\def\url@leostyle{%
+  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\small\ttfamily}}}
+\makeatother
+%% Now actually use the newly defined style.
+\urlstyle{leo}
+%______________________________________________________________________________________________________________________
+\begin{document}
+\name{\Large Zening Qu}
+\begin{resume}
+
+    %__________________________________________________________________________________________________________________
+    % Contact Information
+    \section{\mysidestyle Contact\\Information}
+
+    Room 4-308, FIT Building                       
+    \hfill mobile: +86 180 5881 2079         \vspace{0mm}\\\vspace{0mm}%
+    Tsinghua University, Beijing, 100084, P.R.China                         
+    \hfill e-mail: quzening@gmail.com          
+    \vspace{0mm} \\ \vspace{0mm}
+    \hfill 
+    https://sites.google.com/site/quzening/
+
+    %__________________________________________________________________________________________________________________
+    % Education
+    \section{\mysidestyle Education and Professional Experience}
+
+    \textbf{Zhejiang University}, P.R.China \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Bachelor of Computer Science} \hfill \textsl{September 2008 -- September 2012}\vspace{-3mm}\\\vspace{-1mm}%
+    \begin{list2}
+        \item \textbf{Chu Konchen Honored student}, GPA: 88.77/100 (\textbf{3.92}/4.0)
+        \item Thesis: Zening Qu. \textsl{Egal: Synchronizing P2P Games Over NDN}. Department of Computer Science, Zhejiang University, 2012.
+    \end{list2}\vspace{-1.5mm}
+    
+    \textbf{University of California, Los Angeles}, U.S. \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Cross-disciplinary Scholars in Science and Technology} \hfill \textsl{July 2011 -- June 2012} \vspace{-3mm}\\\vspace{-1mm}%
+    \begin{list2}
+        \item GPA: \textbf{4.0}/4.0 (Summer); \textbf{3.889}/4.0 (Winter \& Spring)
+    \end{list2}\vspace{-1.5mm}
+
+     \textbf{Tsinghua University}, P.R.China \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Research Scholar in Human-Computer Interaction} \hfill \textsl{September 2012 -- present}\vspace{-3mm}\\\vspace{-1mm}%
+    
+        %__________________________________________________________________________________________________________________
+    % Publications
+    \section{\mysidestyle Publication}
+
+    \textbf{Zening Qu}, Jeff Burke. \emph{Egal Car: A Peer-to-Peer Car Racing Game Synchronized Over Named Data Networking}, Technical Report, UCLA, October, 2012. \href{http://named-data.net/techreport/TR010-egalcar.pdf}{\url{http://named-data.net/techreport/TR010-egalcar.pdf}}
+
+
+    %__________________________________________________________________________________________________________________
+    % Professional Experience
+    \section{\mysidestyle Selected Research Projects}
+
+    \textbf{Research Intern}, University of California, Los Angeles \\%
+    Advisors: Prof. Jeff Burke, Prof. Fabian Wagmister, School of Theater, Film and Television \vspace{2mm}\\
+    \textbf{Memorial Barrial}\hfill \textsl{June 2011 -- August 2011}\\
+    Memorial Barrial is an \textbf{interactive virtual world system} that visualizes multimedia data (photos, videos etc.) in a navigable 3D space. The idea is to help communities to celebrate their history by projecting this virtual space on walls of public places and inviting people to explore. \\
+    Much of the design knowledge of the system was gained from a pilot study which happened in Hollywood in 2008. The design process involves multiple iterations of expert-based usability testing done by both technologists and artists from the UCLA film department. Several case studies were launched, in U.S. and in Argentina, with participants ranging from pupils of downtown Los Angeles to commuters in the Buenos Aires subway station. \\
+    As the student leader and chief programmer of the project, I engineered the virtual world based on the various sources of design feedbacks.
+    
+    \textbf{Egal: Synchronizing Game Environment Happenings via NDN} \hfill \textsl{February 2012 -- present}\\
+    Egal is a library that supports three different synchronization models for multiplayer on-line games on NDN (a new Internet architecture and alternative to IP). The three models were identified by observing players' interactions with virtual environments of representative games of representative genres. The models were applied to synchronize a car-racing game (see publication) and a role-playing game. Evaluation of the effectiveness of the models is the planned next step. This project is funded by NSF. \\
+   The research group has so far consisted of just Prof. Burke and me, with support from the NDN group of the UCLA Computer Science department. My contribution to the project involves identifying one of the three models, applying NDN protocols to game development and implementing the library and the prototype games.
+
+    \textbf{Research Intern}, Tsinghua University \\
+    Advisors: Prof. Yuanchun Shi, Prof. Yongqiang Lyu \vspace{2mm}\\%
+    \textbf{Coronary Heart Disease Risk Analysis in Home Settings} \hfill \textsl{September 2012 -- present}\\
+    This project was conceived with the belief that linear time-invariant models can be used to estimate the hazard of a coronary heart failure. Identification, training and validation of the models rely on a collection of patients data that covers a time span of decades. After this procedure, the models may still have to be redesigned to fit in home environments before they can be handed over to end-users. The project is supported by the NSF of China. \\
+    I work as the only student researcher in this project.\\
+   
+   \vspace{5cm}
+   
+  %  \textbf{Undergraduate Student}, Zhejiang University  \vspace{2mm} \\
+  %  \textbf{Genetic Algorithm Based Optimization of Repeater Coordination on Cellular Network} \hfill \textsl{Feburary 2011}
+    
+
+    %__________________________________________________________________________________________________________________
+    % Honors and Awards
+    \section{\mysidestyle Honours and\\Awards} 
+
+   \textbf{World 1$^{st}$ Prize} (Meritorious Winner), Mathematical Contest in Modeling, 2011 \\
+   \textbf{Microsoft Young Scholar} Nominee, 2011\\
+   Excellent Student Awards, Zhejiang University, 2009\\
+   Scholarship for Outstanding Merits, Zhejiang University, 2009, 2010\\
+   Scholarship for Outstanding Students, Zhejiang University, 2009
+
+%__________________________________________________________________________________________________________________
+    % Skills
+    \section{\mysidestyle Skills} 
+    
+    Programming: C, C++, C\#, Python \\
+    Prototyping: Game Engine (Unity3D), Web (HTML5, Javascript), OpenGL, OpenCV, Git\\
+    Analysis: Matlab, SPSS \\
+    Documentation: \LaTeXe, MS Office \\
+    Communication: fluent English, native Mandrin Chinese
+
+
+%______________________________________________________________________________________________________________________
+
+    \section{\mysidestyle Academic Preparations for HCI} 
+    
+    Books I have read: 
+    \begin{list2}
+        \item Jonathan Lazar, Jinjuan H. Feng, and Harry Hochheiser. \textsl{Research Methods in Human-Computer Interaction}. John Wiley \& Sons Ltd, 2010.
+	\item Donald A. Norman. \textsl{The Design of Everyday Things}. Basic Books, 2002.     
+    \end{list2}
+    \vspace{-3mm}
+    Books I am reading now:
+    \begin{list2}
+   	\item Stuart K. Card, Thomas P. Moran, and Allen Newell. \textsl{The Psychology of Human-Computer Interaction}. Lawrence Erlbaum Associates Inc., 1983.
+	 \item Christopher M. Bishop. \emph{Pattern Recognition and Machine Learning}. Springer, 2006.
+	 \item Donald E. Knuth. \emph{Surreal Numbers}. Publishing House of Electronics Industry, 2012.
+    \end{list2}
+        
+    Class that I am auditing in Tsinghua University:
+    \begin{list2}
+    \item Human-Computer Interaction, given by Prof. Yuanchun Shi and Prof. Linmi Tao
+    \end{list2}
+    
+    Theories and procedures that I am familiar with:
+    \begin{list2}
+    \item Quantitative Analysis: t-test, ANOVA, correlation, regression
+    \item Qualitative Analysis: coding, reliability tests
+    \item Research Methods: experiment, survey, diary, case study, interview, focus groups, ethnography, usability test
+    \end{list2}
+    
+    Connections with the academic community:
+    \begin{list2}
+    \item student member of ACM, IEEE
+    \item volunteer of IEEE HealthCom, 2012
+    \end{list2}
+    
+%______________________________________________________________________________________________________________________
+
+\end{resume}
+
+\end{document}
+
+
+%______________________________________________________________________________________________________________________
+% EOF
+
